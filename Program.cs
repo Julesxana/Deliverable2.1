@@ -12,7 +12,7 @@ namespace Deliverable2._1
         static void Main(string[] args)
         {
             //Prompt user for grade entry 
-            Console.WriteLine("Please enter your grade for ISM 3400");
+            Console.WriteLine("Please enter your grade for ISM 4300");
 
             try
             { //declare variable for the inputted grade as a decimal
@@ -20,7 +20,7 @@ namespace Deliverable2._1
                decimal grade = decimal.Parse(input);
 
                 // A grade 98.0 and better is an A+
-                if (grade >= 98)
+                if ((grade >= 98) && (grade <=100))
                     Console.WriteLine("Your Grade is an A+");
 
                 // A grade between 92.0 and 97.0 is an A
