@@ -68,7 +68,7 @@ namespace Deliverable2._1
                     Console.WriteLine("Your Grade is an D-");
 
                 // A grade 60.0 or worse is a F
-                else if (grade < 60)
+                else if ((grade < 60) && (grade >= 0))
                     Console.WriteLine("F");
 
                 // A grade entered that does not fall between the letter grade designations is an invalid grade
